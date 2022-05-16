@@ -32,3 +32,6 @@ db.info.insertMany({address: {building: 1007, street: "Morrisson Park Ave", zipc
 ```
 
 ## 5. Update 1st persons address and his/her first_name
+
+> mongo shell command: `db.info.updateOne({first_name: "Tom"},{$set:{first_name: "Steve",last_name: "Jackson",address:{building: 234, street: "Kentucky Hills", zipcode: 12753}}})
+`
