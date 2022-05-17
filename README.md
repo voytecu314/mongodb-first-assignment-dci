@@ -41,7 +41,8 @@ mongo shell command: `db.info.updateOne({_id: ObjectId("62828926a649f5464f756969
 
 ## 7. Delete from the collection “info” 4th person’s document
 
-
+mongo shell command: `db.info.deleteOne({_id: ObjectId("62828b86a649f5464f75696c")})
+`
 
 ## 8. Find document(s) from “info” collection who’s age is greater than 30
 
