@@ -36,27 +36,28 @@
 
 ## 6. Add new row to the 1st person: “gender”: “male/female”
 
-mongo shell command: `db.info.updateOne({_id: ObjectId("62828926a649f5464f756969")},{$set:{gender: "male"}})
+> mongo shell command: `db.info.updateOne({_id: ObjectId("62828926a649f5464f756969")},{$set:{gender: "male"}})
 `
 
 ## 7. Delete from the collection “info” 4th person’s document
 
-mongo shell command: `db.info.deleteOne({_id: ObjectId("62828b86a649f5464f75696c")})
+> mongo shell command: `db.info.deleteOne({_id: ObjectId("62828b86a649f5464f75696c")})
 `
 
 ## 8. Find document(s) from “info” collection who’s age is greater than 30
 
-mongo shell command: `db.info.find( { age: { $gt: 30 } } )
+> mongo shell command: `db.info.find( { age: { $gt: 30 } } )
 `
 
 ## 9. Find document(s) from “info” collection who’s age is less than 30
 
-mongo shell command: `db.info.find( { age: { $lt: 30 } } )
+> mongo shell command: `db.info.find( { age: { $lt: 30 } } )
 `
 
 ## 10. Find document(s) from “info” collection who’s age is less than 30 but more than 20
 
-
+> mongo shell command: `db.info.find( { age: { $gt: 20, $lt:30} } )
+`
 
 ## 11. Rename 2nd person’s name
 
