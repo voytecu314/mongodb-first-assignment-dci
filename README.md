@@ -31,12 +31,13 @@
 
 ## 5. Update 1st persons address and his/her first_name
 
-> mongo shell command: `db.info.updateOne({_id: ObjectId(62828926a649f5464f756969)},{$set:{first_name: "Steve",last_name: "Jackson",address:{building: 234, street: "Kentucky Hills", zipcode: 12753}}})
+> mongo shell command: `db.info.updateOne({_id: ObjectId("62828926a649f5464f756969")},{$set:{first_name: "Steve",last_name: "Jackson",address:{building: 234, street: "Kentucky Hills", zipcode: 12753}}})
 `
 
 ## 6. Add new row to the 1st person: “gender”: “male/female”
 
-
+mongo shell command: `db.info.updateOne({_id: ObjectId("62828926a649f5464f756969")},{$set:{gender: "male"}})
+`
 
 ## 7. Delete from the collection “info” 4th person’s document
 
