@@ -46,11 +46,13 @@ mongo shell command: `db.info.deleteOne({_id: ObjectId("62828b86a649f5464f75696c
 
 ## 8. Find document(s) from “info” collection who’s age is greater than 30
 
-
+mongo shell command: `db.info.find( { age: { $gt: 30 } } )
+`
 
 ## 9. Find document(s) from “info” collection who’s age is less than 30
 
-
+mongo shell command: `db.info.find( { age: { $lt: 30 } } )
+`
 
 ## 10. Find document(s) from “info” collection who’s age is less than 30 but more than 20
 
