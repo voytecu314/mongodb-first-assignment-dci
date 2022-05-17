@@ -65,3 +65,6 @@
 `
 
 ## 12. Display the fields address, first_name, last_name but exclude the field age for all the documents in the collection “info”
+
+> mongo shell command: `db.info.find({}, {age: 0, _id: 0} ).pretty()
+`
