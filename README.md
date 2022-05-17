@@ -61,6 +61,7 @@
 
 ## 11. Rename 2nd person’s name
 
-
+> mongo shell command: `db.info.updateOne({_id: ObjectId("62828b86a649f5464f75696a")},{$set:{first_name: "Shon"}})
+`
 
 ## 12. Display the fields address, first_name, last_name but exclude the field age for all the documents in the collection “info”
