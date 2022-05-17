@@ -33,3 +33,29 @@
 
 > mongo shell command: `db.info.updateOne({_id: ObjectId(62828926a649f5464f756969)},{$set:{first_name: "Steve",last_name: "Jackson",address:{building: 234, street: "Kentucky Hills", zipcode: 12753}}})
 `
+
+## 6. Add new row to the 1st person: “gender”: “male/female”
+
+
+
+## 7. Delete from the collection “info” 4th person’s document
+
+
+
+## 8. Find document(s) from “info” collection who’s age is greater than 30
+
+
+
+## 9. Find document(s) from “info” collection who’s age is less than 30
+
+
+
+## 10. Find document(s) from “info” collection who’s age is less than 30 but more than 20
+
+
+
+## 11. Rename 2nd person’s name
+
+
+
+## 12. Display the fields address, first_name, last_name but exclude the field age for all the documents in the collection “info”
